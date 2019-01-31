@@ -1,4 +1,4 @@
-package helpers.api.mailchimp.service;
+package helpers.api.mailchimp.model;
 
 /**
  * Default merge fields.
