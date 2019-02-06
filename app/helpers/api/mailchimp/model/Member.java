@@ -1,5 +1,7 @@
 package helpers.api.mailchimp.model;
 
+import play.libs.Codec;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,5 +17,9 @@ public class Member {
 
     public Member(String emailAddress) {
         this.emailAddress = emailAddress;
+    }
+
+    public String subscriberHash() {
+        return Codec.hexMD5(emailAddress.toLowerCase());
     }
 }
