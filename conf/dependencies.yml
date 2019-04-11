@@ -1,8 +1,12 @@
-self: play -> mailchimp 1.3.0
+self: play -> mailchimp 1.4.0
+
+configurations:
+    - provided:
+          exclude: true
 
 require:
     - play
-    - com.sismics.sapparot -> sapparot 1.0.0
-    - com.squareup.okio -> okio 1.13.0
-    - com.squareup.okhttp3 -> okhttp 3.8.1
-    - org.mockito -> mockito-core 2.12.0
+    - com.sismics.sapparot -> sapparot 1.3.1
+    - com.squareup.okhttp3 -> okhttp 3.13.1
+    - com.squareup.okio -> okio 1.17.2
+    - org.mockito -> mockito-core 2.24.0

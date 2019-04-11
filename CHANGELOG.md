@@ -1,4 +1,6 @@
 ## Change Log
+### Version 1.4.0 (2019-04-11)
+- Automate release
 ### Version 1.3.0 (2019-02-08)
 - Add tags to a member
 ### Version 1.2.0 (2019-02-06)

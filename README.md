@@ -8,12 +8,12 @@ This plugin adds [MailChimp](https://www.mailchimp.com/) support to Play! Framew
 
 ```
 require:
-    - mailchimp -> mailchimp 1.0.0
+    - mailchimp -> mailchimp 1.4.0
 
 repositories:
-    - sismics:
-        type:       http
-        artifact:   "http://release.sismics.com/repo/play/[module]-[revision].zip"
+    - sismicsNexusRaw:
+        type: http
+        artifact: "https://nexus.sismics.com/repository/sismics/[module]-[revision].zip"
         contains:
             - mailchimp -> *
 
