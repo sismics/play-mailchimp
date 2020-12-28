@@ -1,3 +1,6 @@
+[![GitHub release](https://img.shields.io/github/release/sismics/play-mailchimp.svg?style=flat-square)](https://github.com/sismics/play-mailchimp/releases/latest)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 # play-mailchimp plugin
 
 This plugin adds [MailChimp](https://www.mailchimp.com/) support to Play! Framework 1 applications.
@@ -8,7 +11,7 @@ This plugin adds [MailChimp](https://www.mailchimp.com/) support to Play! Framew
 
 ```
 require:
-    - mailchimp -> mailchimp 1.4.0
+    - mailchimp -> mailchimp 1.5.0
 
 repositories:
     - sismicsNexusRaw:
